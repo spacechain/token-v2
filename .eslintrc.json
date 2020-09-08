@@ -1,0 +1,24 @@
+{
+  "extends": ["bloq"],
+  "globals": {
+    "artifacts": false,
+    "contract": false,
+    "beforeEach": false,
+    "before": false,
+    "it": false,
+    "web3": false,
+    "describe": false
+  },
+  "overrides": [
+    {
+      "files": ["test/*.js"],
+      "extends": ["bloq/mocha"]
+    }
+  ],
+  "root": true,
+  "rules": {
+    "promise/catch-or-return": ["error", {"allowFinally": true, "allowThen": true}],
+    "jsdoc/require-jsdoc": "off",
+    "semi":["error", "never"]
+  }
+}

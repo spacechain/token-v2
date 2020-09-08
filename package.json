@@ -1,0 +1,56 @@
+{
+  "name": "SpaceChain",
+  "version": "2.0.0",
+  "description": "SpaceChain",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "prettier:solidity": "prettier --write contracts/*.sol",
+    "solhint": "solhint ./contracts/*.sol",
+    "solhint:fix": "prettier --write contracts/*.sol",
+    "truffle": "truffle",
+    "ganache-cli": "ganache-cli",
+    "lint": "eslint ./test/*",
+    "lint:fix": "eslint --fix ./test --ext .js",
+    "test": "truffle test",
+    "coverage": "truffle run coverage"
+  },
+  "dependencies": {
+    "config": "^3.3.1",
+    "web3": "^1.2.9"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^3.0.0",
+    "@truffle/hdwallet-provider": "^1.0.36",
+    "@types/mocha": "^8.0.3",
+    "bip39": "^3.0.2",
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "eslint": "6.8.0",
+    "eslint-config-bloq": "2.3.0",
+    "eslint-config-prettier": "6.9.0",
+    "eslint-config-standard": "14.1.0",
+    "eslint-plugin-import": "2.20.0",
+    "eslint-plugin-jsdoc": "20.3.1",
+    "eslint-plugin-mocha": "6.2.2",
+    "eslint-plugin-node": "11.0.0",
+    "eslint-plugin-prefer-arrow": "1.1.7",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-require-path-exists": "1.1.9",
+    "eslint-plugin-standard": "4.0.1",
+    "ethlint": "^1.2.5",
+    "ganache-cli": "^6.8.2",
+    "hdkey": "^2.0.1",
+    "husky": "4.1.0",
+    "left-pad": "^1.3.0",
+    "prettier-plugin-solidity": "^1.0.0-alpha.54",
+    "solc": "^0.6.12",
+    "solhint": "^2.3.1",
+    "solhint-plugin-prettier": "0.0.4",
+    "solidity-coverage": "^0.7.10",
+    "truffle": "^5.1.42",
+    "truffle-contract-size": "^2.0.0"
+  }
+}
