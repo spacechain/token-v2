@@ -1,6 +1,9 @@
 # SPCv2 Token Upgrade Spec
 Version 1.0
 
+## THIS IS A DRAFT
+
+**This is a open source draft, subject to change.**  This is a proposal being discussed, not finalized.
 
 ## Executive Summary
 
