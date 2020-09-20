@@ -63,6 +63,9 @@ The upgrade process for individual users:
 * Enable trading.
 * Enable SPCv2 deposits and withdrawals.
 
+## UPDATE - Final Deployment Information
+
+The new Spacechain SPC v2 token is deployed at Ethereum contract address [0x86ed939B500E121C0C5f493F399084Db596dAd20](https://etherscan.io/address/0x86ed939b500e121c0c5f493f399084db596dad20)
 
 ## Questions
 
