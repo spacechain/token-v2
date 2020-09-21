@@ -6,7 +6,7 @@ pragma solidity ^0.6.6;
 contract SpaceChain is ERC20Burnable {
     mapping(address => TokenUpgrader) public tokenUpgrader;
 
-    constructor() public ERC20("SPC", "SpaceChainV2") {}
+    constructor() public ERC20("SpaceChainV2", "SPC") {}
 
     function migrateV1tokens() public {
         require(
