@@ -16,6 +16,8 @@ Summary:  Use Etherscan to create your upgrader contract.
 4. Click "OK" to acknowledge this is an Etherscan beta product.
 5. Scroll down to "4. createUpgrader" and click the **Write** button.
 6. Sign the transaction with your wallet, and wait for the transaction to confirm.
+7. **Wait 7 or more minutes** (~30 confirmations) before proceeding.  This waiting-for-confirmations step
+is important for full security.
 
 ## Step 3 - Record Personal Upgrader address
 
